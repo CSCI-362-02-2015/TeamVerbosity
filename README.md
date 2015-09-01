@@ -1,1 +1,1 @@
-# TeamVerbosity
+# Team Verbosity
