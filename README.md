@@ -6,7 +6,7 @@ On Team Verbosity, we believe that words are important. Getting ideas out of con
 ##Team Members
 * Robert Moore
 * Winslow Dibona
-* Joewl Dettweiler
+* Joel Dettweiler
 
 ##Projects
  * myList: A list function written for UNIX. When activated, LIST will return the current directory's contents and print them to an HTML document.
