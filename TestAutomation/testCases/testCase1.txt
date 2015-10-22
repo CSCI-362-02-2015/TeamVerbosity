@@ -1,0 +1,6 @@
+Test Number : 1
+Requirement Tested : 
+Component Tested : 
+Method Tested : getStartPosition() & setStartPosition(int pos)
+Test Inputs : Integer from command line
+Expected Outcomes : “mStartPos = <number entered from command line>”

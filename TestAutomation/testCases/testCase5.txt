@@ -1,0 +1,6 @@
+Test Number : 5
+Requirement Tested : 
+Component Tested :
+Method Tested : getKeyLen(byte[] arr)
+Test Inputs : Integer byte[] length
+Expected Outcomes : 

@@ -1,0 +1,6 @@
+Test Number : 4
+Requirement Tested : 
+Component Tested :
+Method Tested : concatenateWhere(String a, String b)
+Test Inputs : Two Strings from command line
+Expected Outcomes : 

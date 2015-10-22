@@ -2,7 +2,8 @@
 public class testCase5 {
     public static void main(String args[]){
         
-        byte[] arr = args[0];
+        int num = Integer.parseInt(args[0]);
+        byte[] arr = new byte[20];
         System.out.println(getKeyLen(arr));
         
     }

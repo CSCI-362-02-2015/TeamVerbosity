@@ -1,0 +1,6 @@
+Test Number : 2
+Requirement Tested : 
+Component Tested :
+Method Tested : appendEscapedSQLString(StringBuilder sb, String sqlString)
+Test Inputs : String from the command line
+Expected Outcomes : 
