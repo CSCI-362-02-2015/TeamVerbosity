@@ -2,6 +2,7 @@
 var fs = require('fs');
 // JSON object to hold testCases results
 var resultsObject = new Object();
+var open = require('open')
 
 // runs a test case based off the given JSON object
 // sets inputs into test case
@@ -75,6 +76,7 @@ function writeToHTMLFile(){
                     throw err;
                  }
                  console.log("saved file");
+                 open('../temp/temp.html')
                  });
 }
 
