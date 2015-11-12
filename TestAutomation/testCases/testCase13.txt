@@ -1,0 +1,6 @@
+number:13
+requirement:snapTo
+component:snapTo
+method:snapTo
+inputs:2,1
+outcomes:2

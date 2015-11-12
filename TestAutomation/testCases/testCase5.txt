@@ -1,6 +1,6 @@
-Test Number : 5
-Requirement Tested : 
-Component Tested :
-Method Tested : getKeyLen(byte[] arr)
-Test Inputs : Integer byte[] length
-Expected Outcomes : 
+number:5
+requirement:degToRad
+component:degToRad
+method:degToRad
+inputs:66
+outcomes:1.1519173063162575

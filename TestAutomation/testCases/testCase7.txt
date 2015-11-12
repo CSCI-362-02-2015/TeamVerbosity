@@ -1,0 +1,6 @@
+number:7
+requirement:distance
+component:distance
+method:distance
+inputs:200,300,400,600
+outcomes:360.5551275463989

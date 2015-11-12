@@ -1,0 +1,6 @@
+number:11
+requirement:isOdd
+component:isOdd
+method:isOdd
+inputs:3
+outcomes:true

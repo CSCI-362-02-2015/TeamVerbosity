@@ -1,0 +1,6 @@
+number:15
+requirement:snapToCeil
+component:snapToCeil
+method:snapToCeil
+inputs:10,10
+outcomes:10

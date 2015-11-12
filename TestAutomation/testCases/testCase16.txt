@@ -1,0 +1,6 @@
+number:16
+requirement:sign
+component:sign
+method:sign
+inputs:-3
+outcomes:-1

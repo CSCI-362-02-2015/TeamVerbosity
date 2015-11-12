@@ -1,0 +1,6 @@
+number:6
+requirement:difference
+component:difference
+method:difference
+inputs:400,200
+outcomes:200
