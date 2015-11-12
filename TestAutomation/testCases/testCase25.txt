@@ -1,0 +1,6 @@
+number:25
+requirement:blendAdd
+component:blendAdd
+method:blendAdd
+inputs:64,100
+outcomes:255

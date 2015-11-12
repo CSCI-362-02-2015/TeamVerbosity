@@ -1,0 +1,6 @@
+number:5
+requirement:degToRad
+component:degToRad
+method:degToRad
+inputs:66
+outcomes:1.1519173063162575

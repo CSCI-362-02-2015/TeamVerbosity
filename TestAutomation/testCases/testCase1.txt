@@ -1,0 +1,6 @@
+number:1
+requirement:fuzzyEqual
+component:fuzzyEqual
+method:fuzzyEqual
+inputs:1,2,0.0001
+outcomes:false

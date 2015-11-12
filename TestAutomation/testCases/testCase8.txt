@@ -1,0 +1,6 @@
+number:8
+requirement:fuzzyCeil
+component:fuzzyCeil
+method:fuzzyCeil
+inputs:20,.003
+outcomes:20

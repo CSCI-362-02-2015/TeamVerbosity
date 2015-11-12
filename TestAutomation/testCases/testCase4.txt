@@ -1,0 +1,6 @@
+number:4
+requirement:chanceRoll
+component:chanceRoll
+method:chanceRoll
+inputs:100
+outcomes:true

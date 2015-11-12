@@ -1,0 +1,6 @@
+number:12
+requirement:shear
+component:shear
+method:shear
+inputs:1.333
+outcomes:0.33299999999999996

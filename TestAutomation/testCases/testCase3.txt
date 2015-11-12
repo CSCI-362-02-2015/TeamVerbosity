@@ -1,0 +1,6 @@
+number:3
+requirement:average
+component:average
+method:average
+inputs:1,9,69,420
+outcomes:124.75
