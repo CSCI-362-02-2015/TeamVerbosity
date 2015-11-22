@@ -1,6 +1,7 @@
+filename:testCase2.js
 number:2
-requirement:angleBetween
-component:angleBetween
+requirement:Calculates the angle between two given points
+component:Phaser.Math
 method:angleBetween
 inputs:100,200,400,250
 outcomes:0.16514867741462683

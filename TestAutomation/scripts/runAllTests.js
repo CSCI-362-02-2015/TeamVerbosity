@@ -2,6 +2,7 @@
 var fs = require('fs');
 // JSON object to hold testCases results
 var resultsObject = new Object();
+// npm module used for opening HTML output after testing is done
 var open = require('open')
 
 // runs a test case based off the given JSON object
@@ -9,7 +10,7 @@ var open = require('open')
 // executes test case and accepts return value
 // uses return value to generate <tr> (table row) HTML object
 function runTestCase(object){
-    var path = '../testCasesExecutables/testCase' + object.number + '.js';
+    var path = '../testCasesExecutables/' + object.filename;
     var testCase = require(path);
     var result = testCase.test(object.inputs);
     resultsObject[object.number] = createHTMLResultTable(object.number, object.requirement, object.component, object.method, object.inputs, object.outcomes, result.toString())
@@ -51,8 +52,8 @@ function readFile(testCase){
 // Returns a <tr> (table row) html object with the test case information
 function createHTMLResultTable(number, requirement, component, method, inputs, expectedOutcome, actualOutcome){
     var result = "";
-    if(expectedOutcome === actualOutcome){ result = "Passed"; }
-    else{ result = "Failed"; }
+    if(expectedOutcome === actualOutcome){ result = "<font color='green'> Passed </font>"; }
+    else{ result = "<font color='red'> Failed </font>"; }
     var string = "<tr> <td>" + number + "</td> <td>" + result + "</td> <td>" + requirement + "</td> <td>" + component + "</td> <td>" + method + "</td> <td>" + inputs + "</td> <td>" + expectedOutcome + "</td> <td>" + actualOutcome + "</td> </tr>";
     return string;
 }

@@ -1,6 +1,7 @@
+filename:testCase3.js
 number:3
-requirement:average
-component:average
+requirement:Calculates the average of a given set of numbers
+component:Phaser.Math
 method:average
 inputs:1,9,69,420
 outcomes:124.75

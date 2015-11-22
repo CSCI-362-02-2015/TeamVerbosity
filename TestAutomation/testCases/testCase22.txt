@@ -1,3 +1,4 @@
+filename:testCase22.js
 number:22
 requirement:getColor
 component:getColor
