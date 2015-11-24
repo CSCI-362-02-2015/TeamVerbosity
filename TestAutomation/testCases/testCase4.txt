@@ -1,6 +1,7 @@
+filename:testCase4.js
 number:4
 requirement:chanceRoll
-component:chanceRoll
+component:Phaser.Math
 method:chanceRoll
 inputs:100
 outcomes:true
