@@ -3,5 +3,5 @@ number:11
 requirement:isOdd
 component:isOdd
 method:isOdd
-inputs:3
+inputs:true
 outcomes:true

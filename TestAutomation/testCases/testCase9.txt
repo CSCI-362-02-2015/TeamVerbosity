@@ -3,5 +3,5 @@ number:9
 requirement:fuzzyFloor
 component:fuzzyFloor
 method:fuzzyFloor
-inputs:2,0.0001
+inputs:"Banana"
 outcomes:20

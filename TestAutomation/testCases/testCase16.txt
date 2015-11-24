@@ -3,5 +3,5 @@ number:16
 requirement:sign
 component:sign
 method:sign
-inputs:-3
+inputs:true
 outcomes:-1

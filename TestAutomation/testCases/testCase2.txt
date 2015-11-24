@@ -3,5 +3,5 @@ number:2
 requirement:Calculates the angle between two given points
 component:Phaser.Math
 method:angleBetween
-inputs:100,200,400,250
+inputs:100,"200",400,250
 outcomes:0.16514867741462683

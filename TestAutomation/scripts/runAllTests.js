@@ -19,6 +19,12 @@ function runTestCase(object){
     }
 }
 
+function readFileToJson(testCase){
+    var path = '../testCases/' + testCase
+    var obj = JSON.parse(fs.readFileSync(path, 'utf8'))
+    console.log(obj)
+}
+
 // reads a given testCase.txt file
 // generates JSON object to pass to runTestCase()
 function readFile(testCase){
