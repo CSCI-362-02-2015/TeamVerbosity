@@ -1,7 +1,11 @@
-filename:testCase17.js
-number:17
-requirement:roundTo
-component:roundTo
-method:roundTo
-inputs:2000.9,3,2
-outcomes:2000
+{
+
+"filename" : "testCase17.js",
+"number" : 17,
+"requirement" : "Round to some place comparative to a `base`, default is 10 for decimal place. The `place` is represented by the power applied to `base` to get that place.",
+"component" : "Phaser.Math",
+"method" : "roundTo",
+"inputs" : [2000, 9, 3, 2],
+"outcomes" : "0"
+
+}

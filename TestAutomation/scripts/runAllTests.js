@@ -13,16 +13,16 @@ function runTestCase(object){
     var path = '../testCasesExecutables/' + object.filename;
     var testCase = require(path);
     var result = testCase.test(object.inputs);
-    resultsObject[object.number] = createHTMLResultTable(object.number, object.requirement, object.component, object.method, object.inputs, object.outcomes, result.toString())
+    resultsObject[object.number] = createHTMLResultTable(object.number, object.requirement, object.component, object.method, object.inputs, object.outcomes, result)
     if(Object.keys(resultsObject).length === 25){
         writeToHTMLFile();
     }
 }
 
 function readFileToJson(testCase){
-    var path = '../testCases/' + testCase
-    var obj = JSON.parse(fs.readFileSync(path, 'utf8'))
-    console.log(obj)
+    var path = '../testCases/' + testCase;
+    var obj = JSON.parse(fs.readFileSync(path, 'utf8'));
+	return obj
 }
 
 // reads a given testCase.txt file
@@ -78,7 +78,7 @@ function writeToHTMLFile(){
         middle = middle + string;
     }
     var html = start + middle + end;
-    fs.writeFile('../temp/temp.html', html, function(err){
+    fs.writeFile('../reports/report.html', html, function(err){
                  if(err){
                     throw err;
                  }
@@ -90,7 +90,8 @@ function writeToHTMLFile(){
 // kicks off the testing framework by running each test case
 function main(){
     for(var i = 0; i < 25; i++){
-        readFile('testCase' + (i+1).toString() + '.txt');
-    }
+        var obj = readFileToJson('testCase' + (i+1).toString() + '.txt');
+	    runTestCase(obj);
+	}
 }
 main();

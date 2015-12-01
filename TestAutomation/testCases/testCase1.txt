@@ -1,7 +1,11 @@
-filename:testCase1.js
-number:1
-requirement:Compare two numbers to see if their absolute values are with a given range of eachother. If so returns true, if not returns false.
-component:Phaser.Math
-method:fuzzyEqual
-inputs:1,2,0.0001
-outcomes:false
+{
+
+"filename" : "testCase1.js",
+"number" : 1,
+"requirement" : "Compare two numbers to see if their absolute values are with a given range of eachother. If so returns true, if not returns false.",
+"component" : "Phaser.Math",
+"method" : "fuzzyEqual",
+"inputs" : [1, 2, 0.0001],
+"outcomes" : "false"
+
+}

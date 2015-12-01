@@ -1,7 +1,11 @@
-filename:testCase10.js
-number:10
-requirement:fuzzyGreaterThan
-component:fuzzyGreaterThan
-method:fuzzyGreaterThan
-inputs:1,2,0.0001
-outcomes:false
+{
+
+"filename" : "testCase10.js",
+"number" : 10,
+"requirement" : "`a` is fuzzyGreaterThan `b` if it is more than b - epsilon.",
+"component" : "Phaser.Math",
+"method" : "fuzzyGreaterThan",
+"inputs" : [1, 2, 0.0001],
+"outcomes" : "false"
+
+}

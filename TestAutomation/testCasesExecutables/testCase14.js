@@ -10,7 +10,7 @@ function snapToFloor (input, gap, start) {
         return input;
     }
     
-    input -= start;
+    input = start;
     input = gap * Math.floor(input / gap);
     
     return start + input;

@@ -1,7 +1,11 @@
-filename:testCase19.js
-number:19
-requirement:pad
-component:pad
-method:pad
-inputs:HelloWorld
-outcomes:HelloWorld
+{
+
+"filename" : "testCase19.js",
+"number" : 19,
+"requirement" : "Standard Javascript Pad functionality",
+"component" : "Phaser.Utils",
+"method" : "pad",
+"inputs" : ["Hello World"],
+"outcomes" : "Hello World"
+
+}

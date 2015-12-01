@@ -10,7 +10,7 @@ function snapToCeil(input, gap, start) {
         return input;
     }
     
-    input -= start;
+    input = start;
     input = gap * Math.ceil(input / gap);
     
     return start + input;

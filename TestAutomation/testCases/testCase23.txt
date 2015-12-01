@@ -1,7 +1,11 @@
-filename:testCase23.js
-number:23
-requirement:findClosest
-component:findClosest
-method:findClosest
-inputs:1,5,6,3,6,4,1
-outcomes:5
+{
+
+"filename" : "testCase23.js",
+"number" : 23,
+"requirement" : "Snaps a value to the nearest value in an array. The result will always be in the range `[first_value, last_value]`.",
+"component" : "Phaser.ArrayUtils",
+"method" : "findClosest",
+"inputs" : [1, 5, 6, 3, 6, 4, 1],
+"outcomes" : "5"
+
+}

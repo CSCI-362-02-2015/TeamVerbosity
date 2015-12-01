@@ -1,7 +1,11 @@
-filename:testCase20.js
-number:20
-requirement:fontToComponents
-component:fontToComponents
-method:fontToComponents
-inputs:Times
-outcomes:false
+{
+
+"filename" : "testCase20.js",
+"number" : 20,
+"requirement" : "Converts a given font into its individual components",
+"component" : "Phaser.Utils",
+"method" : "fontToComponents",
+"inputs" : ["Times"],
+"outcomes" : "false"
+
+}

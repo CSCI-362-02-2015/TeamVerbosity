@@ -1,7 +1,11 @@
-filename:testCase7.js
-number:7
-requirement:distance
-component:distance
-method:distance
-inputs:200,300,400,600
-outcomes:360.5551275463989
+{
+
+"filename" : "testCase7.js",
+"number" : 7,
+"requirement" : "Calculates and returns the euclidian distance of two coordinates with inputs corresponding to x1, y1, x2, y2",
+"component" : "Phaser.Math",
+"method" : "distance",
+"inputs" : [200, 300, 400, 600],
+"outcomes" : "360.5551275463989"
+
+}
