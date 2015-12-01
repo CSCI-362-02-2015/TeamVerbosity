@@ -1,7 +1,11 @@
-filename:testCase2.js
-number:2
-requirement:Calculates the angle between two given points
-component:Phaser.Math
-method:angleBetween
-inputs:100,"200",400,250
-outcomes:0.16514867741462683
+{
+
+"filename" : "testCase2.js",
+"number" : 2,
+"requirement" : "Calculates the angle between two given points, Returns either a value or NaN if an error. ",
+"component" : "Phaser.Math",
+"method" : "angleBetween",
+"inputs" : [100, 200, 400, 250],
+"outcomes" : "0.16514867741462683"
+
+}

@@ -1,7 +1,11 @@
-filename:testCase15.js
-number:15
-requirement:snapToCeil
-component:snapToCeil
-method:snapToCeil
-inputs:10,10
-outcomes:10
+{
+
+"filename" : "testCase15.js",
+"number" : 15,
+"requirement" : "Snap a value to nearest grid slice, using ceil.",
+"component" : "Phaser.Math",
+"method" : "snapToCeil",
+"inputs" : [10, 10],
+"outcomes" : "10"
+
+}

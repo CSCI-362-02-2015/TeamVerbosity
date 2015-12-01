@@ -6,7 +6,7 @@ function fontToComponents(font) {
     
     var m = font.match(/^\s*(?:\b(normal|italic|oblique|inherit)?\b)\s*(?:\b(normal|small-caps|inherit)?\b)\s*(?:\b(normal|bold|bolder|lighter|100|200|300|400|500|600|700|800|900|inherit)?\b)\s*(?:\b(xx-small|x-small|small|medium|large|x-large|xx-large|larger|smaller|0|\d*(?:[.]\d*)?(?:%|[a-z]{2,5}))?\b)\s*(.*)\s*$/);
     
-    if (!m)
+    if (m)
     {
         return {
         font: font,
@@ -19,9 +19,6 @@ function fontToComponents(font) {
     }
     else
     {
-        console.warn("Phaser.Text - unparsable CSS font: " + font);
-        return {
-        font: font
-        };
+        return false
     }
 }

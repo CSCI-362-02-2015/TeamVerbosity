@@ -1,7 +1,11 @@
-filename:testCase24.js
-number:24
-requirement:componentToHex
-component:componentToHex
-method:componentToHex
-inputs:146
-outcomes:0
+{
+
+"filename" : "testCase24.js",
+"number" : 24,
+"requirement" : "Return a string containing a hex representation of the given color component.",
+"component" : "Phaser.Color",
+"method" : "componentToHex",
+"inputs" : [146],
+"outcomes" : "0"
+
+}

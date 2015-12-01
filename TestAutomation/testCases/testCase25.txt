@@ -1,7 +1,11 @@
-filename:testCase25.js
-number:25
-requirement:blendAdd
-component:blendAdd
-method:blendAdd
-inputs:64,100
-outcomes:255
+{
+
+    "filename" : "testCase25.js",
+    "number" : 25,
+    "requirement" : "Adds the source and backdrop colors together and returns the value, up to a maximum of 255.",
+    "component" : "Phaser.Color",
+    "method" : "blendAdd",
+    "inputs" : [64, 100],
+    "outcomes" : "164"
+
+}

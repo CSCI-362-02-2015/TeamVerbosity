@@ -1,7 +1,11 @@
-filename:testCase6.js
-number:6
-requirement:difference
-component:difference
-method:difference
-inputs:400,200
-outcomes:200
+{
+
+"filename" : "testCase6.js",
+"number" : 6,
+"requirement" : "Calculates the absolute value of the subtraction of two input values",
+"component" : "Phaser.Math",
+"method" : "difference",
+"inputs" : [400, 200],
+"outcomes" : "200"
+
+}

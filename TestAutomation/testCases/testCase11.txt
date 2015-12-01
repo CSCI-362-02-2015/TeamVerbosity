@@ -1,7 +1,11 @@
-filename:testCase11.js
-number:11
-requirement:isOdd
-component:isOdd
-method:isOdd
-inputs:true
-outcomes:true
+{
+
+"filename" : "testCase11.js",
+"number" : 11,
+"requirement" : "Returns true if the number given is odd.",
+"component" : "Phaser.Math",
+"method" : "isOdd",
+"inputs" : [true],
+"outcomes" : "true"
+
+}

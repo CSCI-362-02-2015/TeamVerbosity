@@ -1,7 +1,11 @@
-filename:testCase13.js
-number:13
-requirement:snapTo
-component:snapTo
-method:snapTo
-inputs:2,1
-outcomes:2
+{
+
+"filename" : "testCase13.js",
+"number" : 13,
+"requirement" : "Snap a value to nearest grid slice, using rounding.",
+"component" : "Phaser.Math",
+"method" : "snapTo",
+"inputs" : [2, 1],
+"outcomes" : "2"
+
+}

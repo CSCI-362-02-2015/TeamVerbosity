@@ -1,7 +1,11 @@
-filename:testCase21.js
-number:21
-requirement:componentsToFont
-component:componentsToFont
-method:componentsToFont
-inputs:normal,normal,normal,medium,normal
-outcomes:normal
+{
+
+"filename" : "testCase21.js",
+"number" : 21,
+"requirement" : "Converts a given set of font components into a font object",
+"component" : "Phaser.Utils",
+"method" : "componentsToFont",
+"inputs" : ["normal", "normal", "normal", "medium", "normal"],
+"outcomes" : "true"
+
+}

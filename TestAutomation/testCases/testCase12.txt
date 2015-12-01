@@ -1,7 +1,11 @@
-filename:testCase12.js
-number:12
-requirement:shear
-component:shear
-method:shear
-inputs:1.333
-outcomes:0.33299999999999996
+{
+
+"filename" : "testCase12.js",
+"number" : 12,
+"requirement" : "Calculates and returns the modulo of the given value with 1",
+"component" : "Phaser.Math",
+"method" : "shear",
+"inputs" : [1.333],
+"outcomes" : "0.33299999999999996"
+
+}

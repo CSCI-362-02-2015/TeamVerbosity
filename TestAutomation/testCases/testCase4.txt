@@ -1,7 +1,11 @@
-filename:testCase4.js
-number:4
-requirement:chanceRoll
-component:Phaser.Math
-method:chanceRoll
-inputs:100
-outcomes:true
+{
+
+"filename" : "testCase4.js",
+"number" : 4,
+"requirement" : "Randomaly chooses a number and returns a comparison value between then random number * 100 and the input value",
+"component" : "Phaser.Utils",
+"method" : "chanceRoll",
+"inputs" : [100],
+"outcomes" : "true"
+
+}

@@ -1,7 +1,11 @@
-filename:testCase14.js
-number:14
-requirement:snapToFloor
-component:snapToFloor
-method:snapToFloor
-inputs:20,10
-outcomes:20
+{
+
+"filename" : "testCase14.js",
+"number" : 14,
+"requirement" : "Snap a value to nearest grid slice, using floor.",
+"component" : "Phaser.Math",
+"method" : "snapToFloor",
+"inputs" : [20, 10],
+"outcomes" : "20"
+
+}

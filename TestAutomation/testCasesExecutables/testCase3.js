@@ -3,7 +3,7 @@ exports.test = function (inputs){
 }
 
 function average(arguments){
-    var sum = 0;
+    var sum = "";
     var len = arguments.length;
     
     for (var i = 0; i < len; i++){

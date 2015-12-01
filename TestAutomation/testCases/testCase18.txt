@@ -1,7 +1,11 @@
-filename:testCase18.js
-number:18
-requirement:parseDimension
-component:parseDimension
-method:parseDimension
-inputs:20,100
-outcomes:20
+{
+
+"filename" : "testCase18.js",
+"number" : 18,
+"requirement" : "Get and return a unit dimension from a string.",
+"component" : "Phaser.Utils",
+"method" : "parseDimension",
+"inputs" : [20, 100],
+"outcomes" : "20"
+
+}

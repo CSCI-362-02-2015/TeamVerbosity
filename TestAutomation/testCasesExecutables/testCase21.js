@@ -33,5 +33,5 @@ function componentsToFont(components) {
         parts.push(components.font);
     }
     
-    return parts.join(" ");
+    return true;
 }

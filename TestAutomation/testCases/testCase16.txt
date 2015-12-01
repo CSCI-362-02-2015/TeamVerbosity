@@ -1,7 +1,11 @@
-filename:testCase16.js
-number:16
-requirement:sign
-component:sign
-method:sign
-inputs:true
-outcomes:-1
+{
+
+"filename" : "testCase16.js",
+"number" : 16,
+"requirement" : "A value representing the sign of the value: -1 for negative, +1 for positive, 0 if value is 0.",
+"component" : "Phaser.Math",
+"method" : "sign",
+"inputs" : [true],
+"outcomes" : "1"
+
+}
