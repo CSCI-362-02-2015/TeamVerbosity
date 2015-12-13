@@ -6,6 +6,6 @@
 "component" : "Phaser.Utils",
 "method" : "fontToComponents",
 "inputs" : ["Times"],
-"outcomes" : "false"
+"outcomes" : false
 
 }

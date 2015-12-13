@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "difference",
 "inputs" : [400, 200],
-"outcomes" : "200"
+"outcomes" : 200
 
 }

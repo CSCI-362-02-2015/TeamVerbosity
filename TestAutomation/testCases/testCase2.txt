@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "angleBetween",
 "inputs" : [100, 200, 400, 250],
-"outcomes" : "0.16514867741462683"
+"outcomes" : 0.16514867741462683
 
 }

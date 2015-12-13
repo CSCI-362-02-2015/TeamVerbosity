@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "snapToFloor",
 "inputs" : [20, 10],
-"outcomes" : "20"
+"outcomes" : 20
 
 }

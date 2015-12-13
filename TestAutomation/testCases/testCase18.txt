@@ -6,6 +6,6 @@
 "component" : "Phaser.Utils",
 "method" : "parseDimension",
 "inputs" : [20, 100],
-"outcomes" : "20"
+"outcomes" : 20
 
 }

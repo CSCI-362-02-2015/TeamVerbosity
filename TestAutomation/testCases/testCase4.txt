@@ -6,6 +6,6 @@
 "component" : "Phaser.Utils",
 "method" : "chanceRoll",
 "inputs" : [100],
-"outcomes" : "true"
+"outcomes" : true
 
 }

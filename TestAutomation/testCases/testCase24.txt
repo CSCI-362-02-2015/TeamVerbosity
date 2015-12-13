@@ -6,6 +6,6 @@
 "component" : "Phaser.Color",
 "method" : "componentToHex",
 "inputs" : [146],
-"outcomes" : "0"
+"outcomes" : 0
 
 }

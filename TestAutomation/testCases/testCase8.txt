@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "fuzzyCeil",
 "inputs" : [20, 0.003],
-"outcomes" : "20"
+"outcomes" : 20
 
 }

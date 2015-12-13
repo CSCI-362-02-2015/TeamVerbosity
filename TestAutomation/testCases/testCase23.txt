@@ -6,6 +6,6 @@
 "component" : "Phaser.ArrayUtils",
 "method" : "findClosest",
 "inputs" : [1, 5, 6, 3, 6, 4, 1],
-"outcomes" : "5"
+"outcomes" : 5
 
 }

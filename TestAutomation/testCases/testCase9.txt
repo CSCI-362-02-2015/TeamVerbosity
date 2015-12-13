@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "fuzzyFloor",
 "inputs" : [20],
-"outcomes" : "20"
+"outcomes" : 20
 
 }

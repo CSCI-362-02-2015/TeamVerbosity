@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "sign",
 "inputs" : [true],
-"outcomes" : "1"
+"outcomes" : 1
 
 }

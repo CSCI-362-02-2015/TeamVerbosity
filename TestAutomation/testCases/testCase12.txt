@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "shear",
 "inputs" : [1.333],
-"outcomes" : "0.33299999999999996"
+"outcomes" : 0.33299999999999996
 
 }

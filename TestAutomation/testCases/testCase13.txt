@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "snapTo",
 "inputs" : [2, 1],
-"outcomes" : "2"
+"outcomes" : 2
 
 }

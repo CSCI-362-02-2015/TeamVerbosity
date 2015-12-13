@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "roundTo",
 "inputs" : [2000, 9, 3, 2],
-"outcomes" : "0"
+"outcomes" : 0
 
 }

@@ -6,6 +6,6 @@
 "component" : "Phaser.Color",
 "method" : "getColor",
 "inputs" : [100, 200, 255],
-"outcomes" : "6605055"
+"outcomes" : 6605055
 
 }

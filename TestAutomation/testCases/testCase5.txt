@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "degToRad",
 "inputs" : [66],
-"outcomes" : "1.1519173063162575"
+"outcomes" : 1.1519173063162575
 
 }

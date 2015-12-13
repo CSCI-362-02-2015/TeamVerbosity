@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "average",
 "inputs" : [1, 9, 69, 420],
-"outcomes" : "124.75"
+"outcomes" : 124.75
 
 }

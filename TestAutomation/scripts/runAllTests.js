@@ -20,36 +20,9 @@ function runTestCase(object){
 }
 
 function readFileToJson(testCase){
-    var path = '../testCases/' + testCase;
+    var path = 'testCases/' + testCase;
     var obj = JSON.parse(fs.readFileSync(path, 'utf8'));
 	return obj
-}
-
-// reads a given testCase.txt file
-// generates JSON object to pass to runTestCase()
-function readFile(testCase){
-    var path = '../testCases/' + testCase;
-    var buffer = fs.readFile(path, function(err, data){
-                             var bufferString = data.toString();
-                             var split = bufferString.split('\n');
-                             var object = new Object();
-                             for(var i = 0; i < split.length; i++){
-                                var line = split[i];
-                                var lineSplit = line.split(':');
-                                var k = lineSplit[0];
-                                var v = lineSplit[1];
-                                var key = k.trim();
-                                var value = v.trim();
-                                if(key === 'inputs'){
-                                    var valueSplit = value.split(',');
-                                    object[lineSplit[0]] = valueSplit;
-                                }
-                                else{
-                                    object[lineSplit[0]] = lineSplit[1];
-                                }
-                             }
-                             runTestCase(object);
-                             });
 }
 
 // createHTMLResultTable()
@@ -78,12 +51,12 @@ function writeToHTMLFile(){
         middle = middle + string;
     }
     var html = start + middle + end;
-    fs.writeFile('../reports/report.html', html, function(err){
+    fs.writeFile('reports/testReport.html', html, function(err){
                  if(err){
                     throw err;
                  }
                  console.log("saved file");
-                 open('../temp/temp.html')
+                 open('reports/testReport.html')
                  });
 }
 

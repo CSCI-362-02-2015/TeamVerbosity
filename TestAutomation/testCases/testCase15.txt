@@ -6,6 +6,6 @@
 "component" : "Phaser.Math",
 "method" : "snapToCeil",
 "inputs" : [10, 10],
-"outcomes" : "10"
+"outcomes" : 10
 
 }

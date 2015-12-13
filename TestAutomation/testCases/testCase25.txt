@@ -6,6 +6,6 @@
     "component" : "Phaser.Color",
     "method" : "blendAdd",
     "inputs" : [64, 100],
-    "outcomes" : "164"
+    "outcomes" : 164
 
 }
